@@ -128,11 +128,10 @@ h1{
 .bottom-links {
   display: flex;
   justify-content: space-evenly;
-  gap: 2rem;
+  width: 60%;
 }
-.bottom-links a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+.icon {
+  width: 2rem;
 }
 
 /* ///////////////FOOTER//////////// */
@@ -149,6 +148,7 @@ footer {
 }
 footer p {
   font-size: 1rem;
+  color: #000000;
 }
 
 /* Google Fonts
