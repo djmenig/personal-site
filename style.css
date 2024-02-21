@@ -46,7 +46,7 @@ h1{
   position: absolute;
   left: 0;
   right: 0;
-  top: 25%;
+  top: 30%;
 }
 .smileyface-image {
   width: 200px;
@@ -165,9 +165,6 @@ footer p {
   }
   .details-section-content {
     display: block;
-    justify-content: space-around;
-    align-items: center;
-    gap: 2rem;
   }
   .left-details-section {
     text-align: left;
@@ -178,6 +175,9 @@ footer p {
   }
   .resume-image {
     width: 100%;
+  }
+  .bottom-links {
+    gap: 3rem;
   }
 }
 /* Google Fonts
