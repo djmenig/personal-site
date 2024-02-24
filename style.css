@@ -32,9 +32,6 @@ h2 {
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   color: #ffffff99;
-  grid-row: 1 / 2;
-  align-self: center;
-  justify-self: center;
 }
 h1{
   font-family: "Rubik Dirt", system-ui;
@@ -58,9 +55,13 @@ h1{
 
 /* ///////////////MIDDLE-CONTAINER//////////// */
 .middle-container {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   width: 100%;
   padding: 0 15% 0 15%;
+  align-items: center;
+  justify-content: space-around;
 }
 .middle-container h2 {
   margin-bottom: 1rem;
