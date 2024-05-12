@@ -41,6 +41,15 @@ h1{
   font-size: 4.5rem;
   color: #000000;
 }
+.profilePictureContainer {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: solid white;
+  border-width: .25rem;
+
+}
 .smileyface-image {
   width: 200px;
 }
